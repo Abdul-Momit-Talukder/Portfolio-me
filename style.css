@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --teal: #20c997;
     --dark: #1a1a1a;
     --light-bg: #f8f9fa;
@@ -14,7 +14,7 @@ body {
 
 .container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
 
-/* Navbar */
+/* Navbar *
 .main-nav { padding: 20px 0; background: #fff; border-bottom: 1px solid #eee; }
 .nav-box { display: flex; justify-content: space-between; align-items: center; }
 .logo { font-weight: 700; font-size: 1.5rem; }
@@ -22,7 +22,7 @@ body {
 .nav-links { display: flex; list-style: none; gap: 20px; }
 .nav-links a { text-decoration: none; color: var(--dark); font-weight: 600; }
 
-/* Hero Section */
+/* Hero Section *
 .hero-split { padding: 80px 0; background: #fff; margin-bottom: 50px; }
 .hero-flex { display: flex; align-items: center; gap: 50px; }
 .hero-text h1 { font-size: 3.5rem; margin-bottom: 20px; }
@@ -38,7 +38,7 @@ body {
     border: 15px solid #f1f1f1;
 }
 
-/* Sidebar & Layout */
+/* Sidebar & Layout *
 .main-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
 
 .post-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
@@ -52,12 +52,12 @@ body {
 .post-info { padding: 20px; }
 .post-meta { font-size: 0.8rem; color: var(--text-muted); }
 
-/* Sidebar Widgets */
+/* Sidebar Widgets *
 .side-widget { background: #fff; padding: 30px; border-radius: 10px; margin-bottom: 30px; text-align: center; }
 .side-widget h3 { border-bottom: 2px solid var(--teal); display: inline-block; margin-bottom: 20px; }
 .side-widget input { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #eee; }
 
-/* Floating Icons from Screenshot */
+/* Floating Icons from Screenshot *
 .floating-icon {
     position: absolute; width: 50px; height: 50px; background: #fff;
     border-radius: 10px; display: flex; align-items: center; justify-content: center;
@@ -65,7 +65,7 @@ body {
 }
 .icon-1 { top: 10%; right: -20px; }
 .icon-2 { bottom: 10%; left: -20px; }
-/* Navigation Styling */
+/* Navigation Styling *
 .main-nav {
     background: #fff;
     padding: 15px 0;
@@ -81,17 +81,17 @@ body {
     align-items: center;
 }
 
-/* Logo Section */
+/* Logo Section *
 .logo-group {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #32a889; /* Teal color from image */
+    color: #32a889; /* Teal color from image *
     font-size: 1.8rem;
     font-weight: 700;
 }
 
-/* Nav Links */
+/* Nav Links *
 .nav-links {
     display: flex;
     list-style: none;
@@ -114,7 +114,7 @@ body {
     border-radius: 25px;
 }
 
-/* Tools & Socials */
+/* Tools & Socials *
 .nav-tools {
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ body {
 }
 
 .search-btn:hover { background: #288a70; }
-/* Navbar Base */
+/* Navbar Base *
 .navbar {
   position: sticky;
   top: 0;
@@ -174,7 +174,7 @@ body {
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
-/* Container */
+/* Container *
 .nav-container {
   max-width: 1200px;
   margin: auto;
@@ -184,7 +184,7 @@ body {
   justify-content: space-between;
 }
 
-/* Logo */
+/* Logo *
 .logo {
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@ body {
   color: #1e9b7a;
 }
 
-/* Menu */
+/* Menu *
 .nav-menu {
   display: flex;
   list-style: none;
@@ -209,7 +209,7 @@ body {
   transition: 0.3s;
 }
 
-/* Hover animation */
+/* Hover animation *
 .nav-menu a::after {
   content: "";
   position: absolute;
@@ -229,19 +229,19 @@ body {
   color: #1e9b7a;
 }
 
-/* Active link */
+/* Active link *
 .active {
   color: #1e9b7a;
 }
 
-/* Right side */
+/* Right side *
 .nav-right {
   display: flex;
   align-items: center;
   gap: 14px;
 }
 
-/* Socials */
+/* Socials *
 .socials {
   display: flex;
   gap: 12px;
@@ -256,7 +256,7 @@ body {
   color: #1e9b7a;
 }
 
-/* Buttons */
+/* Buttons *
 .icon-btn {
   border: none;
   background: #1e9b7a;
@@ -267,42 +267,4 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
-
-.icon-btn:hover {
-  transform: scale(1.1);
-}
-
-/* Mobile */
-.menu-toggle {
-  display: none;
-  font-size: 1.5rem;
-  border: none;
-  background: none;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    background: white;
-    flex-direction: column;
-    padding: 20px;
-    display: none;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  }
-
-  .nav-menu.active {
-    display: flex;
-  }
-
-  .nav-right {
-    display: none;
-  }
-}
+*/
