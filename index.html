@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Momit | Robotics & Tech Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <div class="logo">
+      <i class="fas fa-code"></i>
+      <span>Geeky</span>
+    </div>
+
+    <!-- Mobile Toggle -->
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Links -->
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Elements</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Pages <i class="fas fa-chevron-down"></i></a></li>
+    </ul>
+
+    <!-- Right Tools -->
+    <div class="nav-right">
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <button class="icon-btn"><i class="fas fa-moon"></i></button>
+      <button class="icon-btn search"><i class="fas fa-search"></i></button>
+    </div>
+
+  </div>
+</nav>
+   <nav class="main-nav">
+    <div class="container nav-box">
+        <!-- Logo -->
+        <div class="logo-group">
+            <i class="fas fa-code logo-icon"></i>
+            <span class="logo-text">geeky</span>
+        </div>
+
+        <!-- Links -->
+        <ul class="nav-links">
+            <li><a href="#" class="active-link">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pages <i class="fas fa-chevron-down"></i></a></li>
+        </ul>
+
+        <!-- Social & Tools -->
+        <div class="nav-tools">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/KnowledgeVault"><i class="fab fa-github"></i></a>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+            
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+</nav>
+
+    <header class="hero-split">
+        <div class="container hero-flex">
+            <div class="hero-text">
+                <h1>Welcome !<br>to Abdul Momit's Blog</h1>
+                <p>CSE Undergraduate & Robotics Enthusiast. Exploring the frontiers of Embedded Systems and AI.</p>
+                <a href="#" class="btn-teal">Know About Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Abdul Momit">
+                <!-- Floating tech icons like the screenshot -->
+                <div class="floating-icon icon-1"><i class="fas fa-microchip"></i></div>
+                <div class="floating-icon icon-2"><i class="fas fa-robot"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container main-layout">
+        <!-- Main Feed -->
+        <main class="content-feed">
+            <section class="posts-group">
+                <h2 class="group-title">Recent Posts</h2>
+                <div class="post-grid">
+                    <article class="post-card">
+                        <div class="post-thumb">
+                            <img src="robotics-thumb.jpg" alt="Robotics">
+                            <span class="tag">Robotics</span>
+                        </div>
+                        <div class="post-info">
+                            <h3>Robotic world is growing very fast</h3>
+                            <p class="post-meta">By Momit � 13 May 2026</p>
+                            <p>Exploring the latest trends in autonomous navigation and 2D transformations.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-thumb">
+                            <img src="kiosk-thumb.jpg" alt="Kiosk Project">
+                            <span class="tag">Programming</span>
+                        </div>
+                        <div class="post-info">
+                            <h3>Building a Self-Printing Kiosk</h3>
+                            <p class="post-meta">By Momit � 04 Apr 2026</p>
+                            <p>A deep dive into RFID integration and automated payment gateways.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="side-widget about-widget">
+                <div class="logo">MOMIT<span>//</span>GEEKY</div>
+                <p>Passionate about creating modern, efficient applications and hardware solutions.</p>
+                <div class="side-socials">
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="side-widget newsletter">
+                <h3>Newsletter</h3>
+                <p>Join thousands of tech enthusiasts.</p>
+                <input type="email" placeholder="Your Email">
+                <button class="btn-teal">Sign Up</button>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Designed by Abdul Momit</p>
+        </div>
+    </footer>
+</body>
+</html>
